@@ -1,0 +1,31 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Translate any language to platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIGHTMARE06/Platzom.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "fundamentos"
+  ],
+  "author": "Alan Santiago <alanivan.s06@gmail.com> (https://github.com/NIGHTMARE06)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NIGHTMARE06/Platzom/issues"
+  },
+  "homepage": "https://github.com/NIGHTMARE06/Platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
